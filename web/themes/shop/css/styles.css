@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+span.required{
+	color:#ff0000;
+}
+section.log-reg-section{
+	text-align: center;
+}
