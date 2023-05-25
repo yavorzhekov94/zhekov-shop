@@ -1,0 +1,12 @@
+{
+    "name": "yavor.zhekov/test",
+    "authors": [
+        {
+            "name": "Yavor Zhekov",
+            "email": "yajko94@gmail.com"
+        }
+    ],
+    "require": {
+        "yzh/php-mvc-core": "v1.0.3"
+    }
+}

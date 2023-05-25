@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5d55e03218e3acdb14ebfa0d13e72fc5",
+    "packages": [
+        {
+            "name": "yzh/php-mvc-core",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yavorzhekov94/php-mvc-core.git",
+                "reference": "14654dc329916936916d64f2844e18c1f9ee79e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yavorzhekov94/php-mvc-core/zipball/14654dc329916936916d64f2844e18c1f9ee79e7",
+                "reference": "14654dc329916936916d64f2844e18c1f9ee79e7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yzh\\phhpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Yavor Zhekov",
+                    "email": "yajko94@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/yavorzhekov94/php-mvc-core/issues",
+                "source": "https://github.com/yavorzhekov94/php-mvc-core/tree/v1.0.3"
+            },
+            "time": "2023-05-13T22:18:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
