@@ -1,5 +1,10 @@
 {
     "name": "yavor.zhekov/test",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
     "authors": [
         {
             "name": "Yavor Zhekov",
