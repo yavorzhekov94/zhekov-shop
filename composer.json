@@ -1,5 +1,5 @@
 {
-    "name": "yavor.zhekov/test",
+    "name": "yavor.zhekov/zhekov-shop",
     "autoload": {
         "psr-4": {
             "app\\": "./"
