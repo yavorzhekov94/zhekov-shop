@@ -24,7 +24,10 @@ use app\core\Application;
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                      <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/products">Products</a>
                     </li>
                 </ul>
                 <?php if (Application::isGuest()): ?>
@@ -35,7 +38,7 @@ use app\core\Application;
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/register">Register</a>
+                      <a class="nav-link" href="/register">Register</a>
                     </li>
                 </ul>
                 <?php else: ?>
