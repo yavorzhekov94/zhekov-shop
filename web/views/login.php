@@ -2,7 +2,7 @@
 
 /** @var $model \app\models\User */
 
- use app\core\form\Form;
+ use yzh\phhpmvc\Form\Form;
 ?>
 <h1>Login</h1>
 <?php $form = Form::begin("", "post") ?>

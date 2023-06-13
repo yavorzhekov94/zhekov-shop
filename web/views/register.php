@@ -1,5 +1,5 @@
 <?php
-    use app\core\form\Form;
+    use yzh\phhpmvc\Form\Form;
 ?>
 <h1>Create an account</h1>
 <?php $form = Form::begin("", "post") ?>

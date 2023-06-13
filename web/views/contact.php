@@ -2,8 +2,8 @@
 /** @var $this \app\core\View */
 /** @var $model \app\core\ContactForm */
 
-use app\core\form\Form;
-use app\core\Form\TextareaField;
+use yzh\phhpmvc\Form\Form;
+use yzh\phhpmvc\Form\TextareaField;
 
 $this->title = "Contact"
 ?>

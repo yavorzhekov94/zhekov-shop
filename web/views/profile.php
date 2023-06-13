@@ -1,6 +1,6 @@
 <?php
-use models\Session;
-use models\UserRepository;
+use app\models\Session;
+use app\models\UserRepository;
 
 require '../../models/Session.php';
 require_once '../../models/UserRepository.php';
