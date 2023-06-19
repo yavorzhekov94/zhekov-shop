@@ -1,12 +1,12 @@
 <?php
 
-namespace app\controllers;
+namespace app\web\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
-use app\models\ContactForm;
+use yzh\phhpmvc\Application;
+use yzh\phhpmvc\Controller;
+use yzh\phhpmvc\Request;
+use yzh\phhpmvc\Response;
+use yzh\phhpmvc\ContactForm;
 
 /**
  * Class SiteController

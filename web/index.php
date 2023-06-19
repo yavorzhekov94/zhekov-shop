@@ -1,7 +1,8 @@
 <?php
 
 use yzh\phhpmvc\Application;
-use app\models\User;
+use app\web\controllers\SiteController;
+use app\web\models\User;
 use Dotenv\Dotenv;
 
 require_once __DIR__.'/../vendor/autoload.php';
