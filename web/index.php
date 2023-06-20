@@ -2,6 +2,7 @@
 
 use yzh\phhpmvc\Application;
 use app\web\controllers\SiteController;
+use app\web\controllers\AuthController;
 use app\web\models\User;
 use Dotenv\Dotenv;
 
@@ -17,8 +18,8 @@ $config = [
         'password' => $_ENV['DB_PASSWORD'],
     ]
 ];
-
-$app = new Application(dirname(__DIR__), $config);
+$path =__DIR__;
+$app = new Application($path, $config);
 
 $app->router->get('/', [SiteController::class, 'home']);
 $app->router->get('/contact', [SiteController::class, 'contact']);

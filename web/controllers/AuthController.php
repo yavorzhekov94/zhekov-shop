@@ -1,13 +1,13 @@
 <?php
 
-namespace app\controllers;
+namespace app\web\controllers;
 
 use yzh\phhpmvc\Application;
 use yzh\phhpmvc\Controller;
 use yzh\phhpmvc\Request;
 use yzh\phhpmvc\Response;
-use app\models\LoginForm;
-use app\models\User;
+use app\web\models\LoginForm;
+use app\web\models\User;
 use yzh\phhpmvc\middlewares\AuthMiddleware;
 
 /**
