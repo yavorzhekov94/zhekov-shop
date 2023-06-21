@@ -6,7 +6,7 @@ use yzh\phhpmvc\Application;
 use yzh\phhpmvc\Controller;
 use yzh\phhpmvc\Request;
 use yzh\phhpmvc\Response;
-use yzh\phhpmvc\ContactForm;
+use app\web\models\ContactForm;
 
 /**
  * Class SiteController

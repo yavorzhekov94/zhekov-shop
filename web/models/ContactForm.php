@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace app\web\models;
 
 use yzh\phhpmvc\Model;
 
